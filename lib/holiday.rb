@@ -72,7 +72,7 @@ holiday_hash.each do |key, value|
          end
          holidays = array.join{" "}
          supplies = value.join(", ")
-         puts "#{holidays}: #{supplies}"
+         puts "  #{holidays}: #{supplies}"
 end
 end
 end
