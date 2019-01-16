@@ -69,6 +69,7 @@ holiday_hash.each do |key, value|
          array = key.to_s.split("_")
          array.each do |word|
            word.capitalize!
+         end
          holidays = array.join{" "}
          supplies = value.join(", ")
          puts "#{holidays}: #{supplies}"
