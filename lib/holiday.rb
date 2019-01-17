@@ -88,4 +88,5 @@ holiday_hash.each do |key,value|
     end
   end
 end
+return output
 end
