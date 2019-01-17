@@ -85,7 +85,7 @@ holiday_hash.each do |key,value|
   value.each do |holiday, supplyar|
     supplyar.each do |supply|
     if supply == "BBQ"
-      output.push(key)
+      output.push(holiday)
     end
     end
   end
